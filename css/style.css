@@ -149,7 +149,7 @@ body {
 
 /* cabecalho */
 .cabecalho {
-    background: linear-gradient(to right, #00000050, #00000050), url(.../img/img-fundo-inicial.jpg) center top no-repeat;
+    background: linear-gradient(to right, #00000050, #00000050), url(../img/img-fundo-inicial.jpg) center top no-repeat;
     background-size: cover;
     width: 100%;
     height: calc(100vh - 10px);
