@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+/* Telas de 600px x 768px */
+@media screen and (min-width: 768px) {
+    .bg-menu {
+        height: 70px;
+    }
+
+    .menus #menu-burguer {
+        display: none;
+    }
+
+    .menus ul {
+        width: unset;
+        position: static;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        box-shadow: none;
+    }
+
+    .menus ul li {
+        border-bottom: none;
+    }
+
+    .menus ul li:hover {
+        background: none;
+    }
+
+    .menus ul a {
+        padding: 7px 10px;
+        transition: 3.s ease;
+    }
+
+    .menus ul a i {
+        display: none;
+    }
+
+    .menus ul a:hover {
+        color: var(--cor0);
+    }
+
+    .title {
+        max-width: 370px;
+        margin-left: 30px;
+    }
+
+    .container div {
+        flex:  1 1 340px;
+    }
+
+    .container:nth-child(3) div {
+        flex:  1 1 221px !important;
+    }
+
+    #papel div + div {
+        margin-top: unset;
+    }
+}
+
+/* Desktop de 968px */
+@media screen and (min-width: 968px) {
+    .menus ul a:hover {
+        transform: scale(1.05);
+    }
+
+    .menu, header, main {
+        max-width: 968px;
+        margin: 0 auto;
+    }
+
+    .title {
+        max-width: 400px;
+    }
+
+    .title p {
+        font-size: 1.1em;
+    }
+
+    #grupos .galeria .galeria-item {
+        cursor: pointer;
+    }
+
+    #grupos .galeria .galeria-item:hover {
+        transform: scale(1.05);
+    }
+
+    header, main {
+        box-shadow: 1.5px 0 4px #00000075;
+    }
+}
